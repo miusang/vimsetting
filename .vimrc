@@ -1,3 +1,7 @@
+" utf-8编码
+scriptencoding utf-8
+set encoding=utf-8
+
 let mapleader="`"
 noremap <LEADER><CR> :nohlsearch<CR>
 set hlsearch
@@ -15,11 +19,10 @@ set nocompatible
 syntax on
 hi Search term=standout ctermfg=0 ctermbg=3
 
-" utf-8编码
-set encoding=utf-8
 
 " 自动缩进
 set autoindent
+set list listchars=tab:>-,space:·
 
 " tab键转化为空格
 set expandtab
