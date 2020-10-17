@@ -32,6 +32,7 @@ set softtabstop=4
 
 " 当前行高亮
 set cursorline
+hi CursorLine   cterm=NONE ctermbg=gray ctermfg=black
 
 " 设置行宽
 set textwidth=120
